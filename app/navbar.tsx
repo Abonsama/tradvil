@@ -10,3 +10,7 @@ export default function Navbar(){
         </ul>
     )
 }
+/*
+the navbar must be on every page
+it has links to the main pages
+*/
