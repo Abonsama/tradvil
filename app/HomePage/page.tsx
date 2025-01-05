@@ -2,6 +2,7 @@ import Ads from "../Ads";
 import Analytics from "../Analytics";
 import Balance from "../Balance";
 import Header from "../header";
+import Navbar from "../navbar";
 
 export default function HomePage(){
     return(
@@ -10,6 +11,7 @@ export default function HomePage(){
         <Ads></Ads>
         <Balance></Balance>
         <Analytics></Analytics>
+        <Navbar></Navbar>
         </section>
     )
 }

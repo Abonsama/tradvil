@@ -4,7 +4,7 @@ export default function Home() {
     return(
         <main>
             <h1>Tradbvil</h1>
-            <Link href={"check if signin or not"} >play</Link>
+            <Link href={"./HomePage"} >play</Link>
         </main>
     )
 }
