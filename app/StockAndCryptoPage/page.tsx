@@ -1,14 +1,20 @@
 import Link from "next/link";
+import Header from "../header";
+import Navbar from "../navbar";
 
 export default function SCPage(){
     return(
         <section>
-            <Link href={""} className="stockButton">
+            <Header></Header>
+            <Link href={'../stockPage'} className="stockButton">
                 {/* image and describtion*/}
+                Stock Market
             </Link>
-            <Link href={""} className="cryptoButton">
+            <Link href={"../cryptoPage"} className="cryptoButton">
                 {/* image and describtion*/}
+                Crypto Exchange
             </Link>
+            <Navbar></Navbar>
         </section>
     )
 }
