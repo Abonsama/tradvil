@@ -48,7 +48,7 @@ export default function StockPage(){
                     li1.push(DD[st])
                 }else if(DD[st].type=='etf'){
                     li2.push(DD[st])
-                }else {li2.push(DD[st])}
+                }else {li3.push(DD[st])}
             }
             return (
                 <ul>

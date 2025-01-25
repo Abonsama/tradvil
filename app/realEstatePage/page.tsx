@@ -54,6 +54,7 @@ export default function RealEstatePage(){
         }
     return(
         <section>
+            <Header></Header>
             <button className="filterButton"></button>
             <Link href={"itemslist"}></Link>
             <div className="container">
@@ -61,6 +62,7 @@ export default function RealEstatePage(){
                 {getData()}
             </ul>
             </div>
+            <Navbar></Navbar>
         </section>
     )
 }
