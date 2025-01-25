@@ -1,8 +1,10 @@
 import Link from "next/link";
-
+import Header from "../header";
+import Navbar from "../navbar";
 export default function CRCPage(){
     return(
         <section>
+            <Header></Header>
             <Link href={"../collectionMarketPage"} className="collectionButton">
                 {/* image and describtion*/}
                 items
@@ -15,6 +17,7 @@ export default function CRCPage(){
                 {/* image and describtion*/}
                 cars
             </Link>
+            <Navbar></Navbar>
         </section>
     )
 }
