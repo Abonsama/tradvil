@@ -5,6 +5,8 @@ import Header from "../header";
 import Navbar from "../navbar";
 
 export default function HomePage(){
+    // in this page we display the balance and the analytics
+
     return(
         <section>
         <Header></Header>

@@ -1,5 +1,8 @@
 import Link from "next/link"
 export default function jobsPage(){
+    // get list of available jobs from database
+    // show the one of eact catagory (if no penalty)
+    // pause untill you make database
     return(
         <section>
             <button className="filterButton"></button>

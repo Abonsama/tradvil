@@ -3,7 +3,7 @@
 import { useRouter } from 'next/navigation';
 import { useRef } from 'react';
 
-export default function SignUpPage() {
+export default function SignInPage() {
     const inputRef1 = useRef(null);
     const inputRef2 = useRef(null);
     const router = useRouter();

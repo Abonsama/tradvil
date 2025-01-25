@@ -3,10 +3,10 @@ import Link from "next/link";
 export default function JBPage(){
     return(
         <section>
-            <Link href={""} className="jobButton">
+            <Link href={"../jobsPage"} className="jobButton">
                 {/* image and describtion*/}
             </Link>
-            <Link href={""} className="businessButton">
+            <Link href={"../businessPage"} className="businessButton">
                 {/* image and describtion*/}
             </Link>
         </section>
