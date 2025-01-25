@@ -62,11 +62,11 @@ export default function jobsPage(){
                 }else {li5=DD[jo]}
             }
             return(<ul>
-                <li><span>{li1.job}</span><span>{li1.describtion}</span><span>{li1.salary}</span></li>
-                <li><span>{li2.job}</span><span>{li2.describtion}</span><span>{li2.salary}</span></li>
-                <li><span>{li3.job}</span><span>{li3.describtion}</span><span>{li3.salary}</span></li>
-                <li><span>{li4.job}</span><span>{li4.describtion}</span><span>{li4.salary}</span></li>
-                <li><span>{li5.job}</span><span>{li5.describtion}</span><span>{li5.salary}</span></li>
+                <li><button><span>{li1.job}</span><span>{li1.describtion}</span><span>{li1.salary}</span></button></li>
+                <li><button><span>{li2.job}</span><span>{li2.describtion}</span><span>{li2.salary}</span></button></li>
+                <li><button><span>{li3.job}</span><span>{li3.describtion}</span><span>{li3.salary}</span></button></li>
+                <li><button><span>{li4.job}</span><span>{li4.describtion}</span><span>{li4.salary}</span></button></li>
+                <li><button><span>{li5.job}</span><span>{li5.describtion}</span><span>{li5.salary}</span></button></li>
             </ul>)
         }
         return JoLi(fetchData)
