@@ -12,8 +12,8 @@ export default function Home() {
         }
     }
     return(
-        <main>
-            <h1>Tradvil</h1>
+        <main className="">
+            <h1 className="font-anton">Tradvil</h1>
             <Link href={checkDatabase()} >play</Link>
         </main>
     )

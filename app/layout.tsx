@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Anton,Inter } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const anton = Anton({
+  variable: "--font-anton-sans",
   subsets: ["latin"],
+  weight:"400"
 });
 
-const geistMono = Geist_Mono({
+const inter = Inter({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
@@ -25,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${anton.variable} ${inter.variable} antialiased bg-background text-gray-300 font-inter`}
       >
         {children}
       </body>
