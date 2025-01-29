@@ -12,10 +12,10 @@ export default function Home() {
         }
     }
     return(
-        <main className="">
-            <h1 className="font-anton">Tradvil</h1>
-            <Link href={checkDatabase()} >play</Link>
-        </main>
+        <section className="flex  flex-col w-screen h-screen justify-evenly items-center">
+            <h1 className="font-anton text-[120px] uppercase">Tradvil</h1>
+            <Link href={checkDatabase()} className=" w-[200px] h-[75px] grow-0 flex items-center justify-center shadow-[0_0_70px_27px_rgba(0,255,255,0.07)] border-[.5px] border-cyan-300 rounded-[10px] px-[5px] text-center text-[40px] font-semibold uppercase" >play</Link>
+        </section>
     )
 }
 /*

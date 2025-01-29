@@ -5,10 +5,10 @@
 :root {
   --background: #1a1a1a;
   --foreground: #ffffff;
-  --main: #ffffff;
 
 }
 
 body{
 font-family: sans-serif;/* for now*/
+
 }
