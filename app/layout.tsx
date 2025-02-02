@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${anton.variable} ${inter.variable} antialiased bg-background text-gray-300 font-inter`}
+        className={`${anton.variable} ${inter.variable} antialiased bg-background text-gray-300 font-inter p-0 m-0`}
       >
         {children}
       </body>
